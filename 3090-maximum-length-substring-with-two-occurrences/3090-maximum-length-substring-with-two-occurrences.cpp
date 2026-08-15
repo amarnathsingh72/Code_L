@@ -20,7 +20,6 @@ public:
             // Current window is valid
             ans = max(ans, right - left + 1);
         }
-
-        return ans;
+     return ans;
     }
 };
