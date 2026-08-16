@@ -12,7 +12,6 @@ public:
         if (min(cnt[1], cnt[2]) == 0) {
             return max(cnt[1], cnt[2]) > 2 && cnt[0] % 2 == 1;
         }
-
         // Both remainder types exist.
         return abs(cnt[1] - cnt[2]) > 2 || cnt[0] % 2 == 0;
     }
