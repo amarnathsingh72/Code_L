@@ -9,6 +9,7 @@ public:
                 }
             }
         }
-         return {};   // No solution found
+        
+     return {};  // No solution found
     }
 };
