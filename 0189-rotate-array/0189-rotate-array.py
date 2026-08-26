@@ -8,6 +8,7 @@ class Solution:
                 r -= 1
 
         k = k % len(nums)
+        
         rev(0, len(nums) - 1)
         rev(0, k - 1)
         rev(k, len(nums) - 1)
