@@ -8,4 +8,4 @@ class Solution:
                 l=m+1
             else:
                 r=m
-        return r
+        return r #L or R both are okay. 
