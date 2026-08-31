@@ -8,4 +8,4 @@ class Solution:
                 l=m+1
             else:
                 r=m
-        return r #L or R both are okay. 
+        return r #L or R both are okay.  12345431ismai mid lete aur mid ke pehelr toh ans nahi rehta, then aage kuch karte
