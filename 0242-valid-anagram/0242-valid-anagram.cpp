@@ -6,7 +6,7 @@ public:
         if (s.length() != t.length()) {
             return false;
         }
-
+// pehele ascai value - '.a' kar na, and count++ karna 
         for (int i = 0; i < s.length(); i++) {
             count[s[i] - 'a']++;
             count[t[i] - 'a']--;
