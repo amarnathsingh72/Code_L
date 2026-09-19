@@ -11,7 +11,7 @@ public:
             count[s[i] - 'a']++;
             count[t[i] - 'a']--;
         }
-// ab wohi count ko minus kr te jana 
+// ab wohi count ko minus kr te jana taki count
         for (int i = 0; i < 26; i++) {
             if (count[i] != 0) {
                 return false;
