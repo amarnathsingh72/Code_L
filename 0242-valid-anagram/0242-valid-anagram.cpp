@@ -11,8 +11,9 @@ public:
             count[s[i] - 'a']++;
             count[t[i] - 'a']--;
         }
-// ab wohi count ko minus kr te jana taki count
+// ab wohi count ko minus kr te jana taki count mia  zero rahe.
         for (int i = 0; i < 26; i++) {
+            // ab yaha pe check kar na count mai 0 se zayada no. hai ya nahi
             if (count[i] != 0) {
                 return false;
             }
