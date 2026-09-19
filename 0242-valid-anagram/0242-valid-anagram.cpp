@@ -18,7 +18,7 @@ public:
                 return false;
             }
         }
-
+// nahi hai toh true kar dena 
         return true;
     }
 };
