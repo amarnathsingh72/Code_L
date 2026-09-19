@@ -2,7 +2,7 @@ class Solution {
 public:
     bool isAnagram(string s, string t) {
         int count[26];
-
+// agar dono ka length same i nahi raha tho false return ka rdena.
         if (s.length() != t.length()) {
             return false;
         }
