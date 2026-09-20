@@ -10,7 +10,7 @@ public:
         for(int i = 0; i < n; i++) {
             a[i] = nums1[i];
         }
-// abhi bake jo hai wo sare 
+// abhi bake jo hai wo sare num2 ke dal dena 
         // Copy nums2
         for(int i = 0; i < m; i++) {
             a[n + i] = nums2[i];
