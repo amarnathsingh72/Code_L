@@ -27,6 +27,7 @@ public:
             // odd hai toh bich mai ka deta
         }
         else {
+            // nahi ahi tho 
             return (a[total / 2 - 1] + a[total / 2]) / 2.0;
         }
     }
