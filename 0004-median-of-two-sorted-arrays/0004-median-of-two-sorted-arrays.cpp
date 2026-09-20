@@ -4,10 +4,9 @@ public:
 
         int n = nums1.size();
         int m = nums2.size();
-
+// pehele dona ka
         int a[n + m];
 
-        // Copy nums1
         for(int i = 0; i < n; i++) {
             a[i] = nums1[i];
         }
