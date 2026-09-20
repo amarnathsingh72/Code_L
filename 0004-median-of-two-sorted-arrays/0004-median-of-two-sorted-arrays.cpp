@@ -4,7 +4,7 @@ public:
 
         int n = nums1.size();
         int m = nums2.size();
-// pehele dona ka
+// pehele dona ka length lerna
         int a[n + m];
 
         for(int i = 0; i < n; i++) {
