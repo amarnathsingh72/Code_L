@@ -28,4 +28,4 @@ class Solution:
 
         return ans
 # ye aur 1011 problem dono same he hai.
-# bas usmai scenario jaise
+# bas usmai scenario jaise diya.
