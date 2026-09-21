@@ -27,3 +27,5 @@ class Solution:
                 l = mid + 1
 
         return ans
+# ye aur 1011 problem dono same he hai.
+#
