@@ -19,7 +19,7 @@ class Solution:
         l = max(weights)
         r = sum(weights)
         ans = 0
-# using the 
+# using the binary search 
         while l <= r:
             mid = (l + r) // 2
 
