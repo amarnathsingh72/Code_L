@@ -2,7 +2,7 @@
 class Solution:
 
     def shipWithinDays(self, weights: list[int], days: int) -> int:
-
+#
         def fun(c):
             day = 1
             total = 0
@@ -19,7 +19,7 @@ class Solution:
         l = max(weights)
         r = sum(weights)
         ans = 0
-# using the binary search uing it 
+# using the binary search uing it so t
         while l <= r:
             mid = (l + r) // 2
 
