@@ -9,6 +9,7 @@ public:
                 sum += x % 10;
                 x /= 10;
             }
+            //check kar re same ha kya naho bolke 
             if(sum == i) return i;
         }
         return -1;
