@@ -9,7 +9,8 @@ public:
 // pehele hum string ko sort karte.
 // sort karne ke baad hum bas pehele aur last ka string ko lete
         for (int i=0;i<first.length() && i<last.length();i++){
-            //ab yaha pe check kar te
+            //ab yaha pe check kar te agar same hai toh aage jate 
+            // warna break karte
             if(first[i]==last[i]){
                 res=res+first[i];
             }
